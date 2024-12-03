@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edith-Shop Management 11</title>
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/overview.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+                    <div id="editProduct" class="mb-4">
+                        <h2>Edit Product</h2>
+                        <form>
+                          
+                            <div class="mb-3">
+                                <label for="productName" class="form-label">Product Name</label>
+                                <input type="text" class="form-control" id="productName" placeholder="Enter product name" value="">
+                            </div>
+                           
+                            <div class="mb-3">
+                                <label for="productPrice" class="form-label">Price</label>
+                                <input type="number" class="form-control" id="productPrice" placeholder="Enter product price" value="25.00">
+                            </div>
+                           
+                            <div class="mb-3">
+                                <label for="productStock" class="form-label">Stock</label>
+                                <input type="number" class="form-control" id="productStock" placeholder="Enter stock quantity" value="100">
+                            </div>
+                           
+                            <div class="mb-3">
+                                <label for="productDescription" class="form-label">Description</label>
+                                <textarea class="form-control" id="productDescription" rows="4" placeholder="Enter product description">This is a sample product description.</textarea>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="productCategory" class="form-label">Category</label>
+                                <select class="form-select" id="productCategory">
+                                    <option selected>Category 1</option>
+                                    <option>Category 2</option>
+                                    <option>Category 3</option>
+                                </select>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="productImage" class="form-label">Upload Product Image</label>
+                                <input type="file" class="form-control" id="productImage">
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Save Changes</button>
+                            
+                            <button type="button" class="btn btn-secondary">Cancel</button>
+                        </form>
+                    </div>
+                    
+</body>
+</html>
